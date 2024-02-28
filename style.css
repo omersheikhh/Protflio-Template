@@ -1,0 +1,348 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.bgcontainer {
+    background: linear-gradient(180deg, rgba(8,27,41,1) 0%, rgba(0,120,152,1) 50%);
+    height: rem;
+    background-position: center;
+    background-size: cover;
+    padding: 2rem;
+    min-width: 55rem;
+    height: 100vh;
+}
+
+.maincontainer {
+    background-color: #081b29;
+    min-height: 40rem;
+    border: 8px solid #081b29;
+    border-radius: 20px;
+    box-shadow: 3px 3px 20px #000000;
+    min-width: 50rem;
+    
+}
+
+.header {
+    background-color:#092030;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.logo {
+    
+    color:aqua;
+    font-family: 'Kalam', cursive;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 599;
+}
+
+.navbar a:hover{
+    color: aqua;
+    cursor: pointer;
+
+}
+
+.container {
+    color: #fff;
+    position: absolute;
+    top: 14rem;
+    left: 12rem;
+
+}
+
+span{
+    color: aqua;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.container p{
+    width: 18rem;
+    font-family: 'Tajawal', sans-serif; 
+    font-weight: 510;
+    word-spacing: 0.2rem;
+    line-height: 1.5rem;
+}
+
+.buttons {
+    position: relative;
+    left: 11rem;
+    top: 21.5rem;
+    display: flex;
+    width: 12rem;
+    justify-content: space-between;
+
+
+}
+
+.buttons a{
+    border: 2px solid aqua; 
+    border-radius: 15px;
+    padding: 8px 14px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color:aqua;
+  
+}
+
+.buttons a:hover{
+    color:#092030;
+    font-weight: 600;
+    background-color: aqua;
+    border-radius: 15px;
+    border: 2px solid aqua;
+    box-shadow: 1px 1px 8px rgb(0, 140, 255);
+}
+
+.icon{
+    position: absolute;
+    top: 30rem;
+    left: 14.5rem;
+    border: none;
+    min-width: 9rem;
+    padding: 0rem 1rem;
+}
+
+
+.icon a{
+    color: aqua;
+    border: none;
+    padding:4px;
+    
+}
+
+.icon i{
+    color:aqua;
+    font-size: 1rem;
+    border: 1px solid;
+    background-color:;
+    border-radius: 20px ;
+    box-shadow: 0.5px 0.5px 5px rgb(2, 196, 255); 
+    padding: 5px;
+}
+
+.image img{
+    width: 18rem;
+    height: 18rem;
+    position: absolute;
+    left: 35rem;
+    top: 13rem;
+    border: 2px solid rgb(81, 83, 83);
+    box-shadow: 1px 1px 20px rgb(0, 0, 0);
+    border-radius: 50%;
+   
+}
+@media screen and (max-width:600px ) 
+{   
+
+    .bgcontainer{
+        
+        background: linear-gradient(180deg, rgba(8,27,41,1) 0%, rgba(0,120,152,1) 50%);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-width: 24rem;
+        min-height: 24rem ;
+        padding:  1.5rem 1rem;
+        height: 100vh;
+        
+    
+    }
+    
+    .maincontainer {
+        
+        background-color: #081b29;
+        min-height: 45rem;
+        border: 8px solid #081b29;
+        border-radius: 20px;
+        box-shadow: 3px 3px 20px #000000;
+        min-width: 2rem;
+        
+    }
+    
+    .header {
+        background-color:#092030;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 0px;
+        border: none;
+        border-radius: 10px;
+        
+    }
+    
+    .logo {
+        
+        color:aqua;
+        font-family: 'Kalam', cursive;
+        font-size: 1.2rem;
+        font-weight: bold;
+    
+    }
+    
+    .navbar a{
+        color: #fff;
+        text-decoration: none;
+        padding: px px;
+        font-family: 'Tajawal', sans-serif;
+        font-size: 0.9rem;
+        font-weight: 599;
+    }
+    
+    .navbar a:hover{
+        color: aqua;
+        cursor: pointer;
+    
+    }
+    
+    .container {
+        color: #fff;
+        position: absolute;
+        top: 19rem;
+        left:3rem ;
+        
+    
+    }
+    
+    span{
+        color: aqua;
+        font-size: 1.8rem;
+        line-height: 3rem;
+    }
+    
+    .container p{
+        width: 18rem;
+        font-family: 'Tajawal', sans-serif; 
+        font-weight: 510;
+        word-spacing: 0.2rem;
+        line-height: 1.5rem;
+    }
+    
+    .buttons {
+        position: relative;
+        left: 4rem;
+        top: 28.8rem;
+        display: flex;
+        width: 12rem;
+        justify-content: space-between;
+    
+    
+    }
+    
+    .buttons a{
+        border: 2px solid aqua; 
+        border-radius: 15px;
+        padding: 8px 14px;
+        font-size: 0.9rem;
+        text-decoration: none;
+        color:aqua;
+      
+    }
+    
+    .buttons a:hover{
+        color:#092030;
+        font-weight: 600;
+        background-color: aqua;
+        border-radius: 15px;
+        border: 2px solid aqua;
+        box-shadow: 1px 1px 8px rgb(0, 140, 255);
+    }
+    
+    .icon{
+        position: absolute;
+        top: 36.8rem;
+        left: 7rem;
+        border: none;
+        min-width: 1rem;
+        padding: 0rem 1rem;
+    }
+    
+    
+    .icon a{
+        color: aqua;
+        border: none;
+        padding:4px;
+        
+    }
+    
+    .icon i{
+        color:aqua;
+        font-size: 1rem;
+        border: 1px solid;
+        background-color:;
+        border-radius: 20px ;
+        box-shadow: 0.5px 0.5px 5px rgb(2, 196, 255); 
+        padding: 5px;
+    }
+    
+    .image img{
+        width: 12rem;
+        height: 12rem;
+        position: absolute;
+        left: 5.5rem;
+        top: 6rem;
+        border: 2px solid rgb(81, 83, 83);
+        box-shadow: 1px 1px 20px rgb(0, 0, 0);
+        border-radius: 50%;
+       
+    }
+      
+}
+
+
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
